@@ -1,0 +1,5 @@
+s6-dns (2.3.0.2-1) stable; urgency=medium
+
+  * Initial release.
+
+ -- multiplexd <multi@in-addr.xyz>  Fri, 13 Sep 2019 14:53:49 +0100
