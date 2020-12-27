@@ -1,8 +1,8 @@
 Source: s6-dns
 Section: net
 Priority: optional
-Maintainer: multiplexd <multi@in-addr.xyz>
-Build-Depends: debhelper (>= 10), quilt, libskarnet-dev (>= 2.9.2.0)
+Maintainer: multi <multi@in-addr.xyz>
+Build-Depends: debhelper (>= 10), quilt, libskarnet-dev (>= 2.9.3.0)
 Standards-Version: 3.9.8
 Homepage: https://skarnet.org/software/s6-dns/
 
@@ -44,7 +44,7 @@ Package: libdcache2.3
 Architecture: any
 Multi-Arch: same
 Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}, libskarnet2.9 (>= 2.9.2.0)
+Depends: ${misc:Depends}, ${shlibs:Depends}, libskarnet2.9 (>= 2.9.3.0)
 Description: DNS client libraries and command-line DNS client utilities (caching data structures)
  s6-dns is a suite of DNS client programs and libraries for Unix systems,
  as an alternative to the BIND, djbdns or other DNS clients.
@@ -61,7 +61,7 @@ Depends:
  libs6dns2.3 (= ${binary:Version}),
  libskadns2.3 (= ${binary:Version}),
  libdcache2.3 (= ${binary:Version}),
- libskarnet-dev (>= 2.9.2.0)
+ libskarnet-dev (>= 2.9.3.0)
 Description: DNS client libraries and command-line DNS client utilities (development files)
  s6-dns is a suite of DNS client programs and libraries for Unix systems,
  as an alternative to the BIND, djbdns or other DNS clients.
