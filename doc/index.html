@@ -29,6 +29,18 @@ systems, as an alternative to the BIND, djbdns or other DNS clients.
 point in the future.
 </p>
 
+<p>
+  The <tt>s6-</tt> prefix is slightly misleading, and probably a naming
+mistake. This package is not, stricto sensu, a part of the
+<em>s6 ecosystem</em>, and it is nowhere near a requirement for a
+<a href="//skarnet.org/software/s6/">s6</a>-based installation.
+However, it is a requirement for
+<a href="//skarnet.org/software/s6-networking/">s6-networking</a>, which
+provides useful networking utilities often used with s6, so keeping the
+prefix makes some kind of sense; you can see s6-dns as an extension
+to the s6 ecosystem.
+</p>
+
 <hr />
 
 <ul>
@@ -46,7 +58,7 @@ point in the future.
  <li> A POSIX-compliant system with a standard C development environment </li>
  <li> GNU make, version 3.81 or later </li>
  <li> <a href="//skarnet.org/software/skalibs/">skalibs</a> version
-2.10.0.1 or later. It's a build-time requirement. It's also a run-time
+2.10.0.3 or later. It's a build-time requirement. It's also a run-time
 requirement if you link against the shared version of the skalibs library. </li>
 </ul>
 
@@ -60,7 +72,7 @@ requirement if you link against the shared version of the skalibs library. </li>
 <h3> Download </h3>
 
 <ul>
- <li> The current released version of s6-dns is <a href="s6-dns-2.3.5.0.tar.gz">2.3.5.0</a>. </li>
+ <li> The current released version of s6-dns is <a href="s6-dns-2.3.5.1.tar.gz">2.3.5.1</a>. </li>
  <li> Alternatively, you can checkout a copy of the
 <a href="//git.skarnet.org/cgi-bin/cgit.cgi/s6-dns/">s6-dns
 git repository</a>:
