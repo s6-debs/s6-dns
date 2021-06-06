@@ -1,4 +1,10 @@
-s6-dns (2.3.5.0-1) buster; urgency=medium
+s6-dns (2.3.5.1-1) stable; urgency=medium
+
+  * New upstream release.
+
+ -- multi <multi@in-addr.xyz>  Sun, 06 Jun 2021 16:58:09 +0100
+
+s6-dns (2.3.5.0-1) stable; urgency=medium
 
   * New upstream release.
 
